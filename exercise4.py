@@ -19,7 +19,7 @@ def findmonth(number):
 # use the input in the function
 mychoice = isvalidatemonthnumber(monthnumber)
 
-# 
+#
 while mychoice == True:
     findmonth(monthnumber)
     monthnumber = int(input('Enter a month of the year: \n'))
